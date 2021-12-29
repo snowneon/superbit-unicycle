@@ -1,1 +1,7 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="EfcTS/F@7B:%c-FA5Z65" x="0" y="0"><statement name="HANDLER"><block type="SuperBit_MotorRun" id="/:48DcWmcr)yA^SGI{RZ"><field name="index">SuperBit.enMotors.M3</field><value name="speed"><shadow type="math_number_minmax" id="WQ^e;MFrdrw.mKC63YLF"><mutation min="-255" max="255" label="Speed" precision="0"/><field name="SLIDER">30</field></shadow></value></block></statement></block><block type="device_forever" id="6$X0pr*f@259R[osQf9s" x="205" y="0"/></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="EfcTS/F@7B:%c-FA5Z65" x="0" y="0"><statement name="HANDLER"><block type="basic_show_icon" id="#uFxyJONF*=KVq38XTP-"><field name="i">IconNames.Heart</field><next><block type="device_show_leds" id="b.VpX$Jn.Fgz$YqF=_B|"><field name="LEDS">`
+        . # . # . 
+        # . # . # 
+        . # . # . 
+        # . # . # 
+        . # . # .
+        `</field><next><block type="SuperBit_MotorRun" id="/:48DcWmcr)yA^SGI{RZ"><field name="index">SuperBit.enMotors.M3</field><value name="speed"><shadow type="math_number_minmax" id="WQ^e;MFrdrw.mKC63YLF"><mutation min="-255" max="255" label="Speed" precision="0"/><field name="SLIDER">255</field></shadow></value></block></next></block></next></block></statement></block></xml>

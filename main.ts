@@ -1,4 +1,9 @@
-SuperBit.MotorRun(SuperBit.enMotors.M3, 30)
-basic.forever(function () {
-	
-})
+basic.showIcon(IconNames.Heart)
+basic.showLeds(`
+    . # . # .
+    # . # . #
+    . # . # .
+    # . # . #
+    . # . # .
+    `)
+SuperBit.MotorRun(SuperBit.enMotors.M3, 255)
