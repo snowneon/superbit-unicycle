@@ -1,6 +1,6 @@
 SuperBit.MotorRun(SuperBit.enMotors.M3, 255)
 basic.forever(function () {
-    basic.showString("I love dad")
+    basic.showString("I love dad and mom")
     basic.showIcon(IconNames.Tortoise)
     basic.showLeds(`
         . # . # .
