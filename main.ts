@@ -17,6 +17,9 @@ basic.forever(function () {
     SuperBit.RGB_Program().setPixelColor(2, neopixel.colors(NeoPixelColors.White))
     SuperBit.RGB_Program().setPixelColor(3, neopixel.colors(NeoPixelColors.White))
     SuperBit.RGB_Program().show()
+    basic.pause(2000)
+    SuperBit.RGB_Program().showRainbow(1, 360)
+    SuperBit.RGB_Program().show()
     basic.showString("I love dad, mom and Ada.")
     basic.showIcon(IconNames.Tortoise)
     basic.showLeds(`
